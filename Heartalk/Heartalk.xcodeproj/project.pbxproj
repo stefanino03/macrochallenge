@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B212A33767C00369CEF /* notificationFunc.swift */; };
 		9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */; };
 		9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D02A33751400C4AC3A /* ContentView.swift */; };
 		9CC5B1D32A33751500C4AC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D22A33751500C4AC3A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C0D7B212A33767C00369CEF /* notificationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
 		9CC5B1CB2A33751400C4AC3A /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
 		9CC5B1D02A33751400C4AC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */,
 				9CC5B1D02A33751400C4AC3A /* ContentView.swift */,
+				9C0D7B212A33767C00369CEF /* notificationFunc.swift */,
 				9CC5B1D22A33751500C4AC3A /* Assets.xcassets */,
 				9CC5B1D42A33751500C4AC3A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */,
 				9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */,
 				9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */,
 			);
