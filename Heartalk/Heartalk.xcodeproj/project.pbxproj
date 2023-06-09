@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B212A33767C00369CEF /* notificationFunc.swift */; };
+		9C0D7B242A337BE700369CEF /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B232A337BE700369CEF /* Canvas.swift */; };
+		9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B252A337D2500369CEF /* PencilButton.swift */; };
+		9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */; };
 		9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */; };
 		9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D02A33751400C4AC3A /* ContentView.swift */; };
 		9CC5B1D32A33751500C4AC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D22A33751500C4AC3A /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		9C0D7B212A33767C00369CEF /* notificationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
+		9C0D7B232A337BE700369CEF /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		9C0D7B252A337D2500369CEF /* PencilButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
+		9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
 		9CC5B1CB2A33751400C4AC3A /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
 		9CC5B1D02A33751400C4AC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +61,9 @@
 			children = (
 				9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */,
 				9CC5B1D02A33751400C4AC3A /* ContentView.swift */,
+				9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */,
+				9C0D7B252A337D2500369CEF /* PencilButton.swift */,
+				9C0D7B232A337BE700369CEF /* Canvas.swift */,
 				9C0D7B212A33767C00369CEF /* notificationFunc.swift */,
 				9CC5B1D22A33751500C4AC3A /* Assets.xcassets */,
 				9CC5B1D42A33751500C4AC3A /* Preview Content */,
@@ -142,7 +151,10 @@
 			files = (
 				9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */,
 				9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */,
+				9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */,
 				9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */,
+				9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */,
+				9C0D7B242A337BE700369CEF /* Canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
