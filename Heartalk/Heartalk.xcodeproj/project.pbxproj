@@ -11,6 +11,11 @@
 		9C0D7B242A337BE700369CEF /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B232A337BE700369CEF /* Canvas.swift */; };
 		9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B252A337D2500369CEF /* PencilButton.swift */; };
 		9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */; };
+		9C92A8332A376E4500F4971E /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8322A376E4500F4971E /* ShareButton.swift */; };
+		9C92A8372A3776B800F4971E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8362A3776B800F4971E /* DrawingView.swift */; };
+		9C92A8392A37775800F4971E /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8382A37775800F4971E /* WritingView.swift */; };
+		9C92A83B2A378E4100F4971E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A83A2A378E4100F4971E /* ActivityView.swift */; };
+		9C92A83D2A378E8500F4971E /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */; };
 		9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */; };
 		9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D02A33751400C4AC3A /* ContentView.swift */; };
 		9CC5B1D32A33751500C4AC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D22A33751500C4AC3A /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 		9C0D7B232A337BE700369CEF /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		9C0D7B252A337D2500369CEF /* PencilButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
 		9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
+		9C92A8322A376E4500F4971E /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		9C92A8362A3776B800F4971E /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		9C92A8382A37775800F4971E /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		9C92A83A2A378E4100F4971E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		9CC5B1CB2A33751400C4AC3A /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
 		9CC5B1D02A33751400C4AC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +71,11 @@
 			children = (
 				9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */,
 				9CC5B1D02A33751400C4AC3A /* ContentView.swift */,
+				9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */,
+				9C92A83A2A378E4100F4971E /* ActivityView.swift */,
+				9C92A8382A37775800F4971E /* WritingView.swift */,
+				9C92A8362A3776B800F4971E /* DrawingView.swift */,
+				9C92A8322A376E4500F4971E /* ShareButton.swift */,
 				9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */,
 				9C0D7B252A337D2500369CEF /* PencilButton.swift */,
 				9C0D7B232A337BE700369CEF /* Canvas.swift */,
@@ -149,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C92A8332A376E4500F4971E /* ShareButton.swift in Sources */,
 				9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */,
+				9C92A8392A37775800F4971E /* WritingView.swift in Sources */,
+				9C92A83B2A378E4100F4971E /* ActivityView.swift in Sources */,
+				9C92A83D2A378E8500F4971E /* SegmentedPicker.swift in Sources */,
 				9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */,
+				9C92A8372A3776B800F4971E /* DrawingView.swift in Sources */,
 				9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */,
 				9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */,
 				9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */,

@@ -12,7 +12,7 @@ struct PencilButton: View {
     @Binding var isActive: Bool
     var body: some View {
         Button {
-            self.isActive = true
+            self.isActive.toggle()
         } label: {
             Image(systemName: "pencil.tip.crop.circle")
                 .resizable()
