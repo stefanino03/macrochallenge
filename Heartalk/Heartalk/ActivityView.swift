@@ -16,19 +16,21 @@ struct ActivityView: View {
     @State var selection: Int = 0
     var body: some View {
         ZStack {
-            Color.teal.ignoresSafeArea()
+            LinearGradient(gradient: Gradient(colors: [Color("up"), Color("down")]), startPoint: .topTrailing, endPoint: .bottomLeading)
+                .ignoresSafeArea()
             VStack(spacing: 50) {
                 SegmentedPicker(selection: $selection)
                 Button {
                     print("ok")
                 } label: {
                     RoundedRectangle(cornerRadius: 20)
+                        .fill(.white)
                         .frame(width: UIScreen.main.bounds.width * 0.9, height: 70)
                         .overlay {
                             Text("Done")
                                 .font(.system(size: 20))
                                 .fontWeight(.bold)
-                                .foregroundColor(.white)
+                                .foregroundColor(.blue)
                         }
                 }
 
