@@ -9,24 +9,18 @@ import SwiftUI
 import PencilKit
 
 struct DrawingView: View {
-    @State private var isActive = false
-    @State private var canvasView = PKCanvasView()
-    @State private var toolPicker = PKToolPicker()
-    @State private var actualText = ""
+    @Binding var isActive: Bool
+    @State var canvasView = PKCanvasView()
+    @State var toolPicker = PKToolPicker()
+    @State var actualText = ""
     var body: some View {
-        ZStack(alignment: .topTrailing) {
             Canvas(isActive: $isActive, canvasView: $canvasView, toolPicker: $toolPicker)
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.6)
-            PencilButton(isActive: $isActive)
-                .frame(maxWidth: .infinity, alignment: .trailing)
-                .padding()
-                .foregroundColor(.teal)
-        }
+                .frame(width: UIScreen.main.bounds.width)
     }
 }
 
 struct DrawingView_Previews: PreviewProvider {
     static var previews: some View {
-        DrawingView()
+        DrawingView(isActive: .constant(true))
     }
 }

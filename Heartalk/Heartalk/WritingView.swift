@@ -6,20 +6,14 @@
 //
 
 import SwiftUI
+import PencilKit
 
-struct WritingView: View {
+struct WritingView: View, KeyboardReadable {
     @State var writingText = ""
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 30)
-                .frame(width: UIScreen.main.bounds.width * 0.9, height: UIScreen.main.bounds.height * 0.6)
-                .foregroundColor(.white)
-                .overlay {
-                    TextField("Write your thoughts here...", text: $writingText, axis: .vertical)
-                        .frame(maxHeight: .infinity, alignment: .top)
-                        .padding()
-                }
-        }
+        TextField("Write your thoughts here...", text: $writingText, axis: .vertical)
+            .frame(maxHeight: .infinity, alignment: .top)
+            .padding([.horizontal, .top])
     }
 }
 
