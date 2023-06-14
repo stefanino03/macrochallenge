@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		379067852A3A19E000886D44 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379067752A3A19DD00886D44 /* ActivityView.swift */; };
 		379067862A3A19E000886D44 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379067762A3A19DE00886D44 /* SegmentedPicker.swift */; };
 		379067872A3A19E000886D44 /* WriteDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379067772A3A19DE00886D44 /* WriteDrawView.swift */; };
 		379067882A3A19E000886D44 /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379067782A3A19DE00886D44 /* UnavailableView.swift */; };
@@ -15,7 +14,6 @@
 		3790678A2A3A19E000886D44 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790677A2A3A19DE00886D44 /* ShareButton.swift */; };
 		3790678B2A3A19E000886D44 /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790677B2A3A19DE00886D44 /* PencilButton.swift */; };
 		3790678C2A3A19E000886D44 /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790677C2A3A19DF00886D44 /* notificationFunc.swift */; };
-		3790678D2A3A19E000886D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3790677D2A3A19DF00886D44 /* Assets.xcassets */; };
 		3790678E2A3A19E000886D44 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790677E2A3A19DF00886D44 /* WriteView.swift */; };
 		3790678F2A3A19E000886D44 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790677F2A3A19DF00886D44 /* QuoteView.swift */; };
 		379067902A3A19E000886D44 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 379067802A3A19DF00886D44 /* Preview Content */; };
@@ -43,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		379067752A3A19DD00886D44 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityView.swift; path = Heartalk/ActivityView.swift; sourceTree = "<group>"; };
+		370D5DA12A3A1D99002A2ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379067762A3A19DE00886D44 /* SegmentedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegmentedPicker.swift; path = Heartalk/SegmentedPicker.swift; sourceTree = "<group>"; };
 		379067772A3A19DE00886D44 /* WriteDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WriteDrawView.swift; path = Heartalk/WriteDrawView.swift; sourceTree = "<group>"; };
 		379067782A3A19DE00886D44 /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnavailableView.swift; path = Heartalk/UnavailableView.swift; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 		3790677A2A3A19DE00886D44 /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareButton.swift; path = Heartalk/ShareButton.swift; sourceTree = "<group>"; };
 		3790677B2A3A19DE00886D44 /* PencilButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PencilButton.swift; path = Heartalk/PencilButton.swift; sourceTree = "<group>"; };
 		3790677C2A3A19DF00886D44 /* notificationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = notificationFunc.swift; path = Heartalk/notificationFunc.swift; sourceTree = "<group>"; };
-		3790677D2A3A19DF00886D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Heartalk/Assets.xcassets; sourceTree = "<group>"; };
 		3790677E2A3A19DF00886D44 /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WriteView.swift; path = Heartalk/WriteView.swift; sourceTree = "<group>"; };
 		3790677F2A3A19DF00886D44 /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteView.swift; path = Heartalk/QuoteView.swift; sourceTree = "<group>"; };
 		379067802A3A19DF00886D44 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "Heartalk/Preview Content"; sourceTree = "<group>"; };
@@ -92,8 +89,8 @@
 		37FE3CD32A320F06006C2F80 = {
 			isa = PBXGroup;
 			children = (
-				379067752A3A19DD00886D44 /* ActivityView.swift */,
-				3790677D2A3A19DF00886D44 /* Assets.xcassets */,
+				379067802A3A19DF00886D44 /* Preview Content */,
+				370D5DA12A3A1D99002A2ABB /* Assets.xcassets */,
 				379067812A3A19DF00886D44 /* Canvas.swift */,
 				379067832A3A19E000886D44 /* ContentView.swift */,
 				379067842A3A19E000886D44 /* DrawView.swift */,
@@ -101,7 +98,6 @@
 				379067792A3A19DE00886D44 /* KeyBoardReadable.swift */,
 				3790677C2A3A19DF00886D44 /* notificationFunc.swift */,
 				3790677B2A3A19DE00886D44 /* PencilButton.swift */,
-				379067802A3A19DF00886D44 /* Preview Content */,
 				3790677F2A3A19DF00886D44 /* QuoteView.swift */,
 				379067762A3A19DE00886D44 /* SegmentedPicker.swift */,
 				3790677A2A3A19DE00886D44 /* ShareButton.swift */,
@@ -228,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				379067902A3A19E000886D44 /* Preview Content in Resources */,
-				3790678D2A3A19E000886D44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +253,6 @@
 				379067942A3A19E000886D44 /* DrawView.swift in Sources */,
 				379067912A3A19E000886D44 /* Canvas.swift in Sources */,
 				3790678F2A3A19E000886D44 /* QuoteView.swift in Sources */,
-				379067852A3A19E000886D44 /* ActivityView.swift in Sources */,
 				3790678E2A3A19E000886D44 /* WriteView.swift in Sources */,
 				379067892A3A19E000886D44 /* KeyBoardReadable.swift in Sources */,
 				3790678B2A3A19E000886D44 /* PencilButton.swift in Sources */,
