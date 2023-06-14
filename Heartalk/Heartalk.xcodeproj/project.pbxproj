@@ -7,40 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B212A33767C00369CEF /* notificationFunc.swift */; };
-		9C0D7B242A337BE700369CEF /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B232A337BE700369CEF /* Canvas.swift */; };
-		9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B252A337D2500369CEF /* PencilButton.swift */; };
-		9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */; };
-		9C92A8332A376E4500F4971E /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8322A376E4500F4971E /* ShareButton.swift */; };
-		9C92A8372A3776B800F4971E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8362A3776B800F4971E /* DrawingView.swift */; };
-		9C92A8392A37775800F4971E /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A8382A37775800F4971E /* WritingView.swift */; };
-		9C92A83B2A378E4100F4971E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A83A2A378E4100F4971E /* ActivityView.swift */; };
-		9C92A83D2A378E8500F4971E /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */; };
-		9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */; };
-		9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D02A33751400C4AC3A /* ContentView.swift */; };
-		9CC5B1D32A33751500C4AC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D22A33751500C4AC3A /* Assets.xcassets */; };
-		9CC5B1D62A33751500C4AC3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5B1D52A33751500C4AC3A /* Preview Assets.xcassets */; };
+		37621A332A337DC600475757 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621A322A337DC600475757 /* QuoteView.swift */; };
+		37621A352A39F96D00475757 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621A342A39F96D00475757 /* SegmentedPicker.swift */; };
+		37621A372A39F9FE00475757 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621A362A39F9FE00475757 /* Canvas.swift */; };
+		37621A392A39FA2700475757 /* NotificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621A382A39FA2700475757 /* NotificationFunc.swift */; };
+		37FE3CE02A320F06006C2F80 /* SessoTerzoTentativoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3CDF2A320F06006C2F80 /* SessoTerzoTentativoApp.swift */; };
+		37FE3CE22A320F06006C2F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3CE12A320F06006C2F80 /* ContentView.swift */; };
+		37FE3CE42A320F06006C2F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FE3CE32A320F06006C2F80 /* Assets.xcassets */; };
+		37FE3CE72A320F06006C2F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FE3CE62A320F06006C2F80 /* Preview Assets.xcassets */; };
+		37FE3CF12A320F07006C2F80 /* SessoTerzoTentativoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3CF02A320F07006C2F80 /* SessoTerzoTentativoTests.swift */; };
+		37FE3CFB2A320F07006C2F80 /* SessoTerzoTentativoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3CFA2A320F07006C2F80 /* SessoTerzoTentativoUITests.swift */; };
+		37FE3CFD2A320F07006C2F80 /* SessoTerzoTentativoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3CFC2A320F07006C2F80 /* SessoTerzoTentativoUITestsLaunchTests.swift */; };
+		37FE3D0A2A3216AB006C2F80 /* WriteDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3D092A3216AB006C2F80 /* WriteDrawView.swift */; };
+		37FE3D0C2A321C27006C2F80 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3D0B2A321C27006C2F80 /* DrawView.swift */; };
+		37FE3D0E2A321C5B006C2F80 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3D0D2A321C5B006C2F80 /* WriteView.swift */; };
+		37FE3D102A321EB6006C2F80 /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE3D0F2A321EB6006C2F80 /* UnavailableView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		37FE3CED2A320F07006C2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE3CD42A320F06006C2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE3CDB2A320F06006C2F80;
+			remoteInfo = SessoTerzoTentativo;
+		};
+		37FE3CF72A320F07006C2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE3CD42A320F06006C2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE3CDB2A320F06006C2F80;
+			remoteInfo = SessoTerzoTentativo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		9C0D7B212A33767C00369CEF /* notificationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
-		9C0D7B232A337BE700369CEF /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
-		9C0D7B252A337D2500369CEF /* PencilButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
-		9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
-		9C92A8322A376E4500F4971E /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
-		9C92A8362A3776B800F4971E /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
-		9C92A8382A37775800F4971E /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
-		9C92A83A2A378E4100F4971E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
-		9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
-		9CC5B1CB2A33751400C4AC3A /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
-		9CC5B1D02A33751400C4AC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9CC5B1D22A33751500C4AC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CC5B1D52A33751500C4AC3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37621A322A337DC600475757 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		37621A342A39F96D00475757 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		37621A362A39F9FE00475757 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		37621A382A39FA2700475757 /* NotificationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFunc.swift; sourceTree = "<group>"; };
+		37FE3CDC2A320F06006C2F80 /* SessoTerzoTentativo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessoTerzoTentativo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE3CDF2A320F06006C2F80 /* SessoTerzoTentativoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessoTerzoTentativoApp.swift; sourceTree = "<group>"; };
+		37FE3CE12A320F06006C2F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37FE3CE32A320F06006C2F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FE3CE62A320F06006C2F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37FE3CEC2A320F07006C2F80 /* SessoTerzoTentativoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessoTerzoTentativoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE3CF02A320F07006C2F80 /* SessoTerzoTentativoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessoTerzoTentativoTests.swift; sourceTree = "<group>"; };
+		37FE3CF62A320F07006C2F80 /* SessoTerzoTentativoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessoTerzoTentativoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE3CFA2A320F07006C2F80 /* SessoTerzoTentativoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessoTerzoTentativoUITests.swift; sourceTree = "<group>"; };
+		37FE3CFC2A320F07006C2F80 /* SessoTerzoTentativoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessoTerzoTentativoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37FE3D092A3216AB006C2F80 /* WriteDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDrawView.swift; sourceTree = "<group>"; };
+		37FE3D0B2A321C27006C2F80 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		37FE3D0D2A321C5B006C2F80 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		37FE3D0F2A321EB6006C2F80 /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9CC5B1C82A33751400C4AC3A /* Frameworks */ = {
+		37FE3CD92A320F06006C2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CE92A320F07006C2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CF32A320F07006C2F80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,86 +87,150 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9CC5B1C22A33751400C4AC3A = {
+		37FE3CD32A320F06006C2F80 = {
 			isa = PBXGroup;
 			children = (
-				9CC5B1CD2A33751400C4AC3A /* Heartalk */,
-				9CC5B1CC2A33751400C4AC3A /* Products */,
+				37621A322A337DC600475757 /* QuoteView.swift */,
+				37FE3D0F2A321EB6006C2F80 /* UnavailableView.swift */,
+				37FE3D0D2A321C5B006C2F80 /* WriteView.swift */,
+				37FE3D0B2A321C27006C2F80 /* DrawView.swift */,
+				37621A362A39F9FE00475757 /* Canvas.swift */,
+				37FE3D092A3216AB006C2F80 /* WriteDrawView.swift */,
+				37621A382A39FA2700475757 /* NotificationFunc.swift */,
+				37621A342A39F96D00475757 /* SegmentedPicker.swift */,
+				37FE3CDE2A320F06006C2F80 /* SessoTerzoTentativo */,
+				37FE3CEF2A320F07006C2F80 /* SessoTerzoTentativoTests */,
+				37FE3CF92A320F07006C2F80 /* SessoTerzoTentativoUITests */,
+				37FE3CDD2A320F06006C2F80 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9CC5B1CC2A33751400C4AC3A /* Products */ = {
+		37FE3CDD2A320F06006C2F80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CC5B1CB2A33751400C4AC3A /* Heartalk.app */,
+				37FE3CDC2A320F06006C2F80 /* SessoTerzoTentativo.app */,
+				37FE3CEC2A320F07006C2F80 /* SessoTerzoTentativoTests.xctest */,
+				37FE3CF62A320F07006C2F80 /* SessoTerzoTentativoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CC5B1CD2A33751400C4AC3A /* Heartalk */ = {
+		37FE3CDE2A320F06006C2F80 /* SessoTerzoTentativo */ = {
 			isa = PBXGroup;
 			children = (
-				9CC5B1CE2A33751400C4AC3A /* HeartalkApp.swift */,
-				9CC5B1D02A33751400C4AC3A /* ContentView.swift */,
-				9C92A83C2A378E8500F4971E /* SegmentedPicker.swift */,
-				9C92A83A2A378E4100F4971E /* ActivityView.swift */,
-				9C92A8382A37775800F4971E /* WritingView.swift */,
-				9C92A8362A3776B800F4971E /* DrawingView.swift */,
-				9C92A8322A376E4500F4971E /* ShareButton.swift */,
-				9C0D7B272A3387C600369CEF /* KeyBoardReadable.swift */,
-				9C0D7B252A337D2500369CEF /* PencilButton.swift */,
-				9C0D7B232A337BE700369CEF /* Canvas.swift */,
-				9C0D7B212A33767C00369CEF /* notificationFunc.swift */,
-				9CC5B1D22A33751500C4AC3A /* Assets.xcassets */,
-				9CC5B1D42A33751500C4AC3A /* Preview Content */,
+				37FE3CDF2A320F06006C2F80 /* SessoTerzoTentativoApp.swift */,
+				37FE3CE12A320F06006C2F80 /* ContentView.swift */,
+				37FE3CE32A320F06006C2F80 /* Assets.xcassets */,
+				37FE3CE52A320F06006C2F80 /* Preview Content */,
 			);
-			path = Heartalk;
+			path = SessoTerzoTentativo;
 			sourceTree = "<group>";
 		};
-		9CC5B1D42A33751500C4AC3A /* Preview Content */ = {
+		37FE3CE52A320F06006C2F80 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9CC5B1D52A33751500C4AC3A /* Preview Assets.xcassets */,
+				37FE3CE62A320F06006C2F80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37FE3CEF2A320F07006C2F80 /* SessoTerzoTentativoTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE3CF02A320F07006C2F80 /* SessoTerzoTentativoTests.swift */,
+			);
+			path = SessoTerzoTentativoTests;
+			sourceTree = "<group>";
+		};
+		37FE3CF92A320F07006C2F80 /* SessoTerzoTentativoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE3CFA2A320F07006C2F80 /* SessoTerzoTentativoUITests.swift */,
+				37FE3CFC2A320F07006C2F80 /* SessoTerzoTentativoUITestsLaunchTests.swift */,
+			);
+			path = SessoTerzoTentativoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CC5B1CA2A33751400C4AC3A /* Heartalk */ = {
+		37FE3CDB2A320F06006C2F80 /* SessoTerzoTentativo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CC5B1D92A33751500C4AC3A /* Build configuration list for PBXNativeTarget "Heartalk" */;
+			buildConfigurationList = 37FE3D002A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativo" */;
 			buildPhases = (
-				9CC5B1C72A33751400C4AC3A /* Sources */,
-				9CC5B1C82A33751400C4AC3A /* Frameworks */,
-				9CC5B1C92A33751400C4AC3A /* Resources */,
+				37FE3CD82A320F06006C2F80 /* Sources */,
+				37FE3CD92A320F06006C2F80 /* Frameworks */,
+				37FE3CDA2A320F06006C2F80 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Heartalk;
-			productName = Heartalk;
-			productReference = 9CC5B1CB2A33751400C4AC3A /* Heartalk.app */;
+			name = SessoTerzoTentativo;
+			productName = SessoTerzoTentativo;
+			productReference = 37FE3CDC2A320F06006C2F80 /* SessoTerzoTentativo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		37FE3CEB2A320F07006C2F80 /* SessoTerzoTentativoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE3D032A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativoTests" */;
+			buildPhases = (
+				37FE3CE82A320F07006C2F80 /* Sources */,
+				37FE3CE92A320F07006C2F80 /* Frameworks */,
+				37FE3CEA2A320F07006C2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE3CEE2A320F07006C2F80 /* PBXTargetDependency */,
+			);
+			name = SessoTerzoTentativoTests;
+			productName = SessoTerzoTentativoTests;
+			productReference = 37FE3CEC2A320F07006C2F80 /* SessoTerzoTentativoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37FE3CF52A320F07006C2F80 /* SessoTerzoTentativoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE3D062A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativoUITests" */;
+			buildPhases = (
+				37FE3CF22A320F07006C2F80 /* Sources */,
+				37FE3CF32A320F07006C2F80 /* Frameworks */,
+				37FE3CF42A320F07006C2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE3CF82A320F07006C2F80 /* PBXTargetDependency */,
+			);
+			name = SessoTerzoTentativoUITests;
+			productName = SessoTerzoTentativoUITests;
+			productReference = 37FE3CF62A320F07006C2F80 /* SessoTerzoTentativoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9CC5B1C32A33751400C4AC3A /* Project object */ = {
+		37FE3CD42A320F06006C2F80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					9CC5B1CA2A33751400C4AC3A = {
-						CreatedOnToolsVersion = 14.3;
+					37FE3CDB2A320F06006C2F80 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					37FE3CEB2A320F07006C2F80 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37FE3CDB2A320F06006C2F80;
+					};
+					37FE3CF52A320F07006C2F80 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37FE3CDB2A320F06006C2F80;
 					};
 				};
 			};
-			buildConfigurationList = 9CC5B1C62A33751400C4AC3A /* Build configuration list for PBXProject "Heartalk" */;
+			buildConfigurationList = 37FE3CD72A320F06006C2F80 /* Build configuration list for PBXProject "SessoTerzoTentativo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,51 +238,96 @@
 				en,
 				Base,
 			);
-			mainGroup = 9CC5B1C22A33751400C4AC3A;
-			productRefGroup = 9CC5B1CC2A33751400C4AC3A /* Products */;
+			mainGroup = 37FE3CD32A320F06006C2F80;
+			productRefGroup = 37FE3CDD2A320F06006C2F80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CC5B1CA2A33751400C4AC3A /* Heartalk */,
+				37FE3CDB2A320F06006C2F80 /* SessoTerzoTentativo */,
+				37FE3CEB2A320F07006C2F80 /* SessoTerzoTentativoTests */,
+				37FE3CF52A320F07006C2F80 /* SessoTerzoTentativoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9CC5B1C92A33751400C4AC3A /* Resources */ = {
+		37FE3CDA2A320F06006C2F80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC5B1D62A33751500C4AC3A /* Preview Assets.xcassets in Resources */,
-				9CC5B1D32A33751500C4AC3A /* Assets.xcassets in Resources */,
+				37FE3CE72A320F06006C2F80 /* Preview Assets.xcassets in Resources */,
+				37FE3CE42A320F06006C2F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CEA2A320F07006C2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CF42A320F07006C2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9CC5B1C72A33751400C4AC3A /* Sources */ = {
+		37FE3CD82A320F06006C2F80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C92A8332A376E4500F4971E /* ShareButton.swift in Sources */,
-				9C0D7B222A33767C00369CEF /* notificationFunc.swift in Sources */,
-				9C92A8392A37775800F4971E /* WritingView.swift in Sources */,
-				9C92A83B2A378E4100F4971E /* ActivityView.swift in Sources */,
-				9C92A83D2A378E8500F4971E /* SegmentedPicker.swift in Sources */,
-				9CC5B1D12A33751400C4AC3A /* ContentView.swift in Sources */,
-				9C92A8372A3776B800F4971E /* DrawingView.swift in Sources */,
-				9C0D7B262A337D2500369CEF /* PencilButton.swift in Sources */,
-				9CC5B1CF2A33751400C4AC3A /* HeartalkApp.swift in Sources */,
-				9C0D7B282A3387C600369CEF /* KeyBoardReadable.swift in Sources */,
-				9C0D7B242A337BE700369CEF /* Canvas.swift in Sources */,
+				37FE3CE22A320F06006C2F80 /* ContentView.swift in Sources */,
+				37FE3D102A321EB6006C2F80 /* UnavailableView.swift in Sources */,
+				37621A392A39FA2700475757 /* NotificationFunc.swift in Sources */,
+				37621A352A39F96D00475757 /* SegmentedPicker.swift in Sources */,
+				37FE3CE02A320F06006C2F80 /* SessoTerzoTentativoApp.swift in Sources */,
+				37FE3D0E2A321C5B006C2F80 /* WriteView.swift in Sources */,
+				37621A372A39F9FE00475757 /* Canvas.swift in Sources */,
+				37621A332A337DC600475757 /* QuoteView.swift in Sources */,
+				37FE3D0C2A321C27006C2F80 /* DrawView.swift in Sources */,
+				37FE3D0A2A3216AB006C2F80 /* WriteDrawView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CE82A320F07006C2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE3CF12A320F07006C2F80 /* SessoTerzoTentativoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE3CF22A320F07006C2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE3CFD2A320F07006C2F80 /* SessoTerzoTentativoUITestsLaunchTests.swift in Sources */,
+				37FE3CFB2A320F07006C2F80 /* SessoTerzoTentativoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		37FE3CEE2A320F07006C2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE3CDB2A320F06006C2F80 /* SessoTerzoTentativo */;
+			targetProxy = 37FE3CED2A320F07006C2F80 /* PBXContainerItemProxy */;
+		};
+		37FE3CF82A320F07006C2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE3CDB2A320F06006C2F80 /* SessoTerzoTentativo */;
+			targetProxy = 37FE3CF72A320F07006C2F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		9CC5B1D72A33751500C4AC3A /* Debug */ = {
+		37FE3CFE2A320F07006C2F80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		9CC5B1D82A33751500C4AC3A /* Release */ = {
+		37FE3CFF2A320F07006C2F80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,15 +441,15 @@
 			};
 			name = Release;
 		};
-		9CC5B1DA2A33751500C4AC3A /* Debug */ = {
+		37FE3D012A320F07006C2F80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
-				DEVELOPMENT_TEAM = 6DL7U9BGXC;
+				DEVELOPMENT_ASSET_PATHS = "\"SessoTerzoTentativo/Preview Content\"";
+				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,13 +457,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = stefano.Heartalk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,15 +470,15 @@
 			};
 			name = Debug;
 		};
-		9CC5B1DB2A33751500C4AC3A /* Release */ = {
+		37FE3D022A320F07006C2F80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
-				DEVELOPMENT_TEAM = 6DL7U9BGXC;
+				DEVELOPMENT_ASSET_PATHS = "\"SessoTerzoTentativo/Preview Content\"";
+				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -341,13 +486,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = stefano.Heartalk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,28 +499,122 @@
 			};
 			name = Release;
 		};
+		37FE3D042A320F07006C2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessoTerzoTentativo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SessoTerzoTentativo";
+			};
+			name = Debug;
+		};
+		37FE3D052A320F07006C2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessoTerzoTentativo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SessoTerzoTentativo";
+			};
+			name = Release;
+		};
+		37FE3D072A320F07006C2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SessoTerzoTentativo;
+			};
+			name = Debug;
+		};
+		37FE3D082A320F07006C2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.SessoTerzoTentativoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SessoTerzoTentativo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CC5B1C62A33751400C4AC3A /* Build configuration list for PBXProject "Heartalk" */ = {
+		37FE3CD72A320F06006C2F80 /* Build configuration list for PBXProject "SessoTerzoTentativo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CC5B1D72A33751500C4AC3A /* Debug */,
-				9CC5B1D82A33751500C4AC3A /* Release */,
+				37FE3CFE2A320F07006C2F80 /* Debug */,
+				37FE3CFF2A320F07006C2F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CC5B1D92A33751500C4AC3A /* Build configuration list for PBXNativeTarget "Heartalk" */ = {
+		37FE3D002A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CC5B1DA2A33751500C4AC3A /* Debug */,
-				9CC5B1DB2A33751500C4AC3A /* Release */,
+				37FE3D012A320F07006C2F80 /* Debug */,
+				37FE3D022A320F07006C2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE3D032A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE3D042A320F07006C2F80 /* Debug */,
+				37FE3D052A320F07006C2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE3D062A320F07006C2F80 /* Build configuration list for PBXNativeTarget "SessoTerzoTentativoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE3D072A320F07006C2F80 /* Debug */,
+				37FE3D082A320F07006C2F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9CC5B1C32A33751400C4AC3A /* Project object */;
+	rootObject = 37FE3CD42A320F06006C2F80 /* Project object */;
 }

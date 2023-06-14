@@ -18,9 +18,9 @@ struct SegmentedPicker: View {
         .padding()
         .pickerStyle(SegmentedPickerStyle())
         switch(selection) {
-        case 0: WritingView()
-        case 1: DrawingView(isActive: $isActive)
-        default: WritingView()
+        case 0: WriteView()
+        case 1: DrawView(isActive: $isActive)
+        default: WriteView()
         }
     }
 }
@@ -30,3 +30,4 @@ struct SegmentedPicker_Previews: PreviewProvider {
         SegmentedPicker(isActive: .constant(true), selection: .constant(1))
     }
 }
+
