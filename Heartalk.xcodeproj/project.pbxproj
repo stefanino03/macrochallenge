@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		370D5DC52A3B169C002A2ABB /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */; };
 		370D5DC72A3B169C002A2ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DC62A3B169C002A2ABB /* ContentView.swift */; };
-		370D5DC92A3B169C002A2ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DC82A3B169C002A2ABB /* Assets.xcassets */; };
 		370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */; };
 		370D5DD62A3B169D002A2ABB /* HeartalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DD52A3B169D002A2ABB /* HeartalkTests.swift */; };
 		370D5DE02A3B169D002A2ABB /* HeartalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DDF2A3B169D002A2ABB /* HeartalkUITests.swift */; };
@@ -26,6 +25,7 @@
 		370D5E032A3B1714002A2ABB /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF72A3B1714002A2ABB /* PencilButton.swift */; };
 		370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */; };
 		370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF92A3B1714002A2ABB /* UnavailableView.swift */; };
+		372E76632A3B34E80094F2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372E76622A3B34E80094F2C8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		370D5DC12A3B169C002A2ABB /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
 		370D5DC62A3B169C002A2ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		370D5DC82A3B169C002A2ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		370D5DD12A3B169D002A2ABB /* HeartalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370D5DD52A3B169D002A2ABB /* HeartalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkTests.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		370D5DF72A3B1714002A2ABB /* PencilButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
 		370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
 		370D5DF92A3B1714002A2ABB /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+		372E76622A3B34E80094F2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Heartalk/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +125,7 @@
 				370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */,
 				370D5DF42A3B1714002A2ABB /* notificationFunc.swift */,
 				370D5DF72A3B1714002A2ABB /* PencilButton.swift */,
+				372E76622A3B34E80094F2C8 /* Assets.xcassets */,
 				370D5DF12A3B1714002A2ABB /* Preview Content */,
 				370D5DF22A3B1714002A2ABB /* QuoteView.swift */,
 				370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */,
@@ -132,7 +133,6 @@
 				370D5DF92A3B1714002A2ABB /* UnavailableView.swift */,
 				370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */,
 				370D5DF62A3B1714002A2ABB /* WriteView.swift */,
-				370D5DC82A3B169C002A2ABB /* Assets.xcassets */,
 				370D5DCA2A3B169C002A2ABB /* Preview Content */,
 			);
 			path = Heartalk;
@@ -269,7 +269,7 @@
 			files = (
 				370D5DFD2A3B1714002A2ABB /* Preview Content in Resources */,
 				370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */,
-				370D5DC92A3B169C002A2ABB /* Assets.xcassets in Resources */,
+				372E76632A3B34E80094F2C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

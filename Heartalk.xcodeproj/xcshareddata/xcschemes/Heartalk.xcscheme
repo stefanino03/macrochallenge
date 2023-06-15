@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37FE3CDB2A320F06006C2F80"
-               BuildableName = "SessoTerzoTentativo.app"
-               BlueprintName = "SessoTerzoTentativo"
+               BlueprintIdentifier = "370D5DC02A3B169C002A2ABB"
+               BuildableName = "Heartalk.app"
+               BlueprintName = "Heartalk"
                ReferencedContainer = "container:Heartalk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37FE3CEB2A320F07006C2F80"
-               BuildableName = "SessoTerzoTentativoTests.xctest"
-               BlueprintName = "SessoTerzoTentativoTests"
+               BlueprintIdentifier = "370D5DD02A3B169D002A2ABB"
+               BuildableName = "HeartalkTests.xctest"
+               BlueprintName = "HeartalkTests"
                ReferencedContainer = "container:Heartalk.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,9 +45,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37FE3CF52A320F07006C2F80"
-               BuildableName = "SessoTerzoTentativoUITests.xctest"
-               BlueprintName = "SessoTerzoTentativoUITests"
+               BlueprintIdentifier = "370D5DDA2A3B169D002A2ABB"
+               BuildableName = "HeartalkUITests.xctest"
+               BlueprintName = "HeartalkUITests"
                ReferencedContainer = "container:Heartalk.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -67,9 +67,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37FE3CDB2A320F06006C2F80"
-            BuildableName = "SessoTerzoTentativo.app"
-            BlueprintName = "SessoTerzoTentativo"
+            BlueprintIdentifier = "370D5DC02A3B169C002A2ABB"
+            BuildableName = "Heartalk.app"
+            BlueprintName = "Heartalk"
             ReferencedContainer = "container:Heartalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37FE3CDB2A320F06006C2F80"
-            BuildableName = "SessoTerzoTentativo.app"
-            BlueprintName = "SessoTerzoTentativo"
+            BlueprintIdentifier = "370D5DC02A3B169C002A2ABB"
+            BuildableName = "Heartalk.app"
+            BlueprintName = "Heartalk"
             ReferencedContainer = "container:Heartalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
