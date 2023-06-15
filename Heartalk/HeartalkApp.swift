@@ -8,13 +8,10 @@
 import SwiftUI
 
 @main
-struct HeartalkApp: App
-    {
-        var body: some Scene
-            {
-                WindowGroup
-                    {
-                        ContentView()
-                    }
-            }
+struct HeartalkApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
     }
+}
