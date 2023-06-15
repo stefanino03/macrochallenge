@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370D5DC52A3B169C002A2ABB /* HeartalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */; };
+		370D5DC72A3B169C002A2ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DC62A3B169C002A2ABB /* ContentView.swift */; };
+		370D5DC92A3B169C002A2ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DC82A3B169C002A2ABB /* Assets.xcassets */; };
+		370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */; };
+		370D5DD62A3B169D002A2ABB /* HeartalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DD52A3B169D002A2ABB /* HeartalkTests.swift */; };
+		370D5DE02A3B169D002A2ABB /* HeartalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DDF2A3B169D002A2ABB /* HeartalkUITests.swift */; };
+		370D5DE22A3B169D002A2ABB /* HeartalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DE12A3B169D002A2ABB /* HeartalkUITestsLaunchTests.swift */; };
+		370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DEE2A3B1714002A2ABB /* DrawView.swift */; };
+		370D5DFB2A3B1714002A2ABB /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */; };
+		370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF02A3B1714002A2ABB /* Canvas.swift */; };
+		370D5DFD2A3B1714002A2ABB /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DF12A3B1714002A2ABB /* Preview Content */; };
+		370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF22A3B1714002A2ABB /* QuoteView.swift */; };
+		370D5DFF2A3B1714002A2ABB /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF32A3B1714002A2ABB /* ShareButton.swift */; };
+		370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF42A3B1714002A2ABB /* notificationFunc.swift */; };
+		370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */; };
+		370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF62A3B1714002A2ABB /* WriteView.swift */; };
+		370D5E032A3B1714002A2ABB /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF72A3B1714002A2ABB /* PencilButton.swift */; };
+		370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */; };
+		370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF92A3B1714002A2ABB /* UnavailableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370D5DD22A3B169D002A2ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D5DB92A3B169C002A2ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370D5DC02A3B169C002A2ABB;
+			remoteInfo = Heartalk;
+		};
+		370D5DDC2A3B169D002A2ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D5DB92A3B169C002A2ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370D5DC02A3B169C002A2ABB;
+			remoteInfo = Heartalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370D5DC12A3B169C002A2ABB /* Heartalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkApp.swift; sourceTree = "<group>"; };
+		370D5DC62A3B169C002A2ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		370D5DC82A3B169C002A2ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		370D5DD12A3B169D002A2ABB /* HeartalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D5DD52A3B169D002A2ABB /* HeartalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkTests.swift; sourceTree = "<group>"; };
+		370D5DDB2A3B169D002A2ABB /* HeartalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D5DDF2A3B169D002A2ABB /* HeartalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkUITests.swift; sourceTree = "<group>"; };
+		370D5DE12A3B169D002A2ABB /* HeartalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		370D5DEE2A3B1714002A2ABB /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		370D5DF02A3B1714002A2ABB /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		370D5DF12A3B1714002A2ABB /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		370D5DF22A3B1714002A2ABB /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		370D5DF32A3B1714002A2ABB /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		370D5DF42A3B1714002A2ABB /* notificationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
+		370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteDrawView.swift; sourceTree = "<group>"; };
+		370D5DF62A3B1714002A2ABB /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		370D5DF72A3B1714002A2ABB /* PencilButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
+		370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
+		370D5DF92A3B1714002A2ABB /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370D5DBE2A3B169C002A2ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DCE2A3B169D002A2ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DD82A3B169D002A2ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370D5DB82A3B169C002A2ABB = {
+			isa = PBXGroup;
+			children = (
+				370D5DC32A3B169C002A2ABB /* Heartalk */,
+				370D5DD42A3B169D002A2ABB /* HeartalkTests */,
+				370D5DDE2A3B169D002A2ABB /* HeartalkUITests */,
+				370D5DC22A3B169C002A2ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370D5DC22A3B169C002A2ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370D5DC12A3B169C002A2ABB /* Heartalk.app */,
+				370D5DD12A3B169D002A2ABB /* HeartalkTests.xctest */,
+				370D5DDB2A3B169D002A2ABB /* HeartalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370D5DC32A3B169C002A2ABB /* Heartalk */ = {
+			isa = PBXGroup;
+			children = (
+				370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */,
+				370D5DC62A3B169C002A2ABB /* ContentView.swift */,
+				370D5DF02A3B1714002A2ABB /* Canvas.swift */,
+				370D5DEE2A3B1714002A2ABB /* DrawView.swift */,
+				370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */,
+				370D5DF42A3B1714002A2ABB /* notificationFunc.swift */,
+				370D5DF72A3B1714002A2ABB /* PencilButton.swift */,
+				370D5DF12A3B1714002A2ABB /* Preview Content */,
+				370D5DF22A3B1714002A2ABB /* QuoteView.swift */,
+				370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */,
+				370D5DF32A3B1714002A2ABB /* ShareButton.swift */,
+				370D5DF92A3B1714002A2ABB /* UnavailableView.swift */,
+				370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */,
+				370D5DF62A3B1714002A2ABB /* WriteView.swift */,
+				370D5DC82A3B169C002A2ABB /* Assets.xcassets */,
+				370D5DCA2A3B169C002A2ABB /* Preview Content */,
+			);
+			path = Heartalk;
+			sourceTree = "<group>";
+		};
+		370D5DCA2A3B169C002A2ABB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		370D5DD42A3B169D002A2ABB /* HeartalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				370D5DD52A3B169D002A2ABB /* HeartalkTests.swift */,
+			);
+			path = HeartalkTests;
+			sourceTree = "<group>";
+		};
+		370D5DDE2A3B169D002A2ABB /* HeartalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370D5DDF2A3B169D002A2ABB /* HeartalkUITests.swift */,
+				370D5DE12A3B169D002A2ABB /* HeartalkUITestsLaunchTests.swift */,
+			);
+			path = HeartalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370D5DC02A3B169C002A2ABB /* Heartalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370D5DE52A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "Heartalk" */;
+			buildPhases = (
+				370D5DBD2A3B169C002A2ABB /* Sources */,
+				370D5DBE2A3B169C002A2ABB /* Frameworks */,
+				370D5DBF2A3B169C002A2ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartalk;
+			productName = Heartalk;
+			productReference = 370D5DC12A3B169C002A2ABB /* Heartalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370D5DD02A3B169D002A2ABB /* HeartalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370D5DE82A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "HeartalkTests" */;
+			buildPhases = (
+				370D5DCD2A3B169D002A2ABB /* Sources */,
+				370D5DCE2A3B169D002A2ABB /* Frameworks */,
+				370D5DCF2A3B169D002A2ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370D5DD32A3B169D002A2ABB /* PBXTargetDependency */,
+			);
+			name = HeartalkTests;
+			productName = HeartalkTests;
+			productReference = 370D5DD12A3B169D002A2ABB /* HeartalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370D5DDA2A3B169D002A2ABB /* HeartalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370D5DEB2A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "HeartalkUITests" */;
+			buildPhases = (
+				370D5DD72A3B169D002A2ABB /* Sources */,
+				370D5DD82A3B169D002A2ABB /* Frameworks */,
+				370D5DD92A3B169D002A2ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370D5DDD2A3B169D002A2ABB /* PBXTargetDependency */,
+			);
+			name = HeartalkUITests;
+			productName = HeartalkUITests;
+			productReference = 370D5DDB2A3B169D002A2ABB /* HeartalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370D5DB92A3B169C002A2ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					370D5DC02A3B169C002A2ABB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					370D5DD02A3B169D002A2ABB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 370D5DC02A3B169C002A2ABB;
+					};
+					370D5DDA2A3B169D002A2ABB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 370D5DC02A3B169C002A2ABB;
+					};
+				};
+			};
+			buildConfigurationList = 370D5DBC2A3B169C002A2ABB /* Build configuration list for PBXProject "Heartalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370D5DB82A3B169C002A2ABB;
+			productRefGroup = 370D5DC22A3B169C002A2ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370D5DC02A3B169C002A2ABB /* Heartalk */,
+				370D5DD02A3B169D002A2ABB /* HeartalkTests */,
+				370D5DDA2A3B169D002A2ABB /* HeartalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370D5DBF2A3B169C002A2ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D5DFD2A3B1714002A2ABB /* Preview Content in Resources */,
+				370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */,
+				370D5DC92A3B169C002A2ABB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DCF2A3B169D002A2ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DD92A3B169D002A2ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370D5DBD2A3B169C002A2ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D5DFF2A3B1714002A2ABB /* ShareButton.swift in Sources */,
+				370D5DC72A3B169C002A2ABB /* ContentView.swift in Sources */,
+				370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */,
+				370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */,
+				370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */,
+				370D5DC52A3B169C002A2ABB /* HeartalkApp.swift in Sources */,
+				370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */,
+				370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */,
+				370D5DFB2A3B1714002A2ABB /* SegmentedPicker.swift in Sources */,
+				370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */,
+				370D5E032A3B1714002A2ABB /* PencilButton.swift in Sources */,
+				370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */,
+				370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DCD2A3B169D002A2ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D5DD62A3B169D002A2ABB /* HeartalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370D5DD72A3B169D002A2ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D5DE22A3B169D002A2ABB /* HeartalkUITestsLaunchTests.swift in Sources */,
+				370D5DE02A3B169D002A2ABB /* HeartalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370D5DD32A3B169D002A2ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370D5DC02A3B169C002A2ABB /* Heartalk */;
+			targetProxy = 370D5DD22A3B169D002A2ABB /* PBXContainerItemProxy */;
+		};
+		370D5DDD2A3B169D002A2ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370D5DC02A3B169C002A2ABB /* Heartalk */;
+			targetProxy = 370D5DDC2A3B169D002A2ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		370D5DE32A3B169D002A2ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370D5DE42A3B169D002A2ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370D5DE62A3B169D002A2ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.Heartalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370D5DE72A3B169D002A2ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.Heartalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		370D5DE92A3B169D002A2ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.HeartalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heartalk";
+			};
+			name = Debug;
+		};
+		370D5DEA2A3B169D002A2ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.HeartalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heartalk";
+			};
+			name = Release;
+		};
+		370D5DEC2A3B169D002A2ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.HeartalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heartalk;
+			};
+			name = Debug;
+		};
+		370D5DED2A3B169D002A2ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gregorio-Guarino.HeartalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heartalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370D5DBC2A3B169C002A2ABB /* Build configuration list for PBXProject "Heartalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D5DE32A3B169D002A2ABB /* Debug */,
+				370D5DE42A3B169D002A2ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370D5DE52A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "Heartalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D5DE62A3B169D002A2ABB /* Debug */,
+				370D5DE72A3B169D002A2ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370D5DE82A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "HeartalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D5DE92A3B169D002A2ABB /* Debug */,
+				370D5DEA2A3B169D002A2ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370D5DEB2A3B169D002A2ABB /* Build configuration list for PBXNativeTarget "HeartalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D5DEC2A3B169D002A2ABB /* Debug */,
+				370D5DED2A3B169D002A2ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370D5DB92A3B169C002A2ABB /* Project object */;
+}
