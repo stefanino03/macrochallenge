@@ -7,9 +7,9 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State var isActive = false
     @State private var star = false
     @State var selection: Int = 0
+    @State var isActive = false
     var body: some View {
         NavigationStack {
             ZStack {
@@ -90,6 +90,14 @@ struct ContentView: View {
                     }
                 }
             }
+        }
+        .onChange(of: selection) {newValue in
+            if selection == 0 {
+                isActive = false
+            } else if selection == 1 {
+                isActive = true
+            }
+            print(isActive)
         }
     }
 }

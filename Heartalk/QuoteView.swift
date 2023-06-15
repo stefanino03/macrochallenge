@@ -7,8 +7,8 @@
 
 import SwiftUI
 struct QuoteView: View {
-    @Binding var isActive: Bool
     @State private var star = false
+    @Binding var isActive: Bool
     @Binding var selection: Int
     var body: some View {
         NavigationStack {
