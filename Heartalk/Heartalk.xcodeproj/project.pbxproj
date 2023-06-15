@@ -26,6 +26,7 @@
 		370D5E032A3B1714002A2ABB /* PencilButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF72A3B1714002A2ABB /* PencilButton.swift */; };
 		370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */; };
 		370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF92A3B1714002A2ABB /* UnavailableView.swift */; };
+		9C2C2BAC2A3B38D800CABCB5 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		370D5DF72A3B1714002A2ABB /* PencilButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilButton.swift; sourceTree = "<group>"; };
 		370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
 		370D5DF92A3B1714002A2ABB /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+		9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				370D5DF72A3B1714002A2ABB /* PencilButton.swift */,
 				370D5DF12A3B1714002A2ABB /* Preview Content */,
 				370D5DF22A3B1714002A2ABB /* QuoteView.swift */,
+				9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */,
 				370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */,
 				370D5DF32A3B1714002A2ABB /* ShareButton.swift */,
 				370D5DF92A3B1714002A2ABB /* UnavailableView.swift */,
@@ -300,6 +303,7 @@
 				370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */,
 				370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */,
 				370D5DC52A3B169C002A2ABB /* HeartalkApp.swift in Sources */,
+				9C2C2BAC2A3B38D800CABCB5 /* QuoteModel.swift in Sources */,
 				370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */,
 				370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */,
 				370D5DFB2A3B1714002A2ABB /* SegmentedPicker.swift in Sources */,
