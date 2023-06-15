@@ -116,6 +116,7 @@
 		370D5DC32A3B169C002A2ABB /* Heartalk */ = {
 			isa = PBXGroup;
 			children = (
+				370D5DCA2A3B169C002A2ABB /* Preview Content */,
 				370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */,
 				370D5DC62A3B169C002A2ABB /* ContentView.swift */,
 				370D5DF02A3B1714002A2ABB /* Canvas.swift */,
@@ -130,7 +131,6 @@
 				370D5DF62A3B1714002A2ABB /* WriteView.swift */,
 				9C2C2BB62A3B4E5300CABCB5 /* Components */,
 				370D5DC82A3B169C002A2ABB /* Assets.xcassets */,
-				370D5DCA2A3B169C002A2ABB /* Preview Content */,
 			);
 			path = Heartalk;
 			sourceTree = "<group>";
