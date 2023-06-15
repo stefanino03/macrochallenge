@@ -7,8 +7,9 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State private var star = false
     @State var isActive = false
+    @State private var star = false
+    @State var selection: Int = 0
     var body: some View {
         NavigationStack {
             ZStack {
@@ -21,7 +22,7 @@ struct ContentView: View {
                         Spacer(minLength: 70)
                         ZStack {
                             NavigationLink {
-                                QuoteView(isActive: $isActive)
+                                QuoteView(isActive: $isActive, selection: $selection)
                             } label: {
                                 ZStack {
                                     QuoteBox(big: false)

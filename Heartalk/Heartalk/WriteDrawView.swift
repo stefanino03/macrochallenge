@@ -13,13 +13,17 @@ struct WriteDrawView: View {
     @State var canvasView = PKCanvasView()
     @State var toolPicker = PKToolPicker()
     @State var actualText = ""
-    @State var selection: Int = 0
+    @Binding var selection: Int
     var body: some View {
         NavigationStack {
             VStack {
                 SegmentedPicker(isActive: $isActive, selection: $selection)
                     .onChange(of: selection) {newValue in
-                        isActive.toggle()
+                        if selection == 0 {
+                            isActive = false
+                        } else if selection == 1 {
+                            isActive = true
+                        }
                         print(isActive)
                     }
             }
@@ -38,6 +42,6 @@ struct WriteDrawView: View {
 
 struct WriteDrawView_Previews: PreviewProvider {
     static var previews: some View {
-        WriteDrawView(isActive: .constant(false))
+        WriteDrawView(isActive: .constant(false), selection: .constant(0))
     }
 }

@@ -7,8 +7,9 @@
 
 import SwiftUI
 struct QuoteView: View {
-    @State private var star = false
     @Binding var isActive: Bool
+    @State private var star = false
+    @Binding var selection: Int
     var body: some View {
         NavigationStack {
             ZStack {
@@ -38,7 +39,7 @@ struct QuoteView: View {
                                 .frame(width: 170)
                             Spacer()
                             NavigationLink {
-                                WriteDrawView(isActive: $isActive)
+                                WriteDrawView(isActive: $isActive, selection: $selection)
                             } label: {
                                 ZStack {
                                     Circle()
@@ -60,7 +61,7 @@ struct QuoteView: View {
 
 struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
-        QuoteView(isActive: .constant(false))
+        QuoteView(isActive: .constant(false), selection: .constant(0))
     }
 }
 
