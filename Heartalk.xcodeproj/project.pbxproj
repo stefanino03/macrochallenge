@@ -20,11 +20,9 @@
 		370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF62A3B1714002A2ABB /* WriteView.swift */; };
 		370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */; };
 		370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF92A3B1714002A2ABB /* UnavailableView.swift */; };
+		372E76652A3CA2E60094F2C8 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E76642A3CA2E60094F2C8 /* Reflection.swift */; };
 		9C2C2BAC2A3B38D800CABCB5 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */; };
 		9C2C2BAF2A3B4B2D00CABCB5 /* QuoteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BAE2A3B4B2D00CABCB5 /* QuoteBox.swift */; };
-		9C2C2BB12A3B4C1700CABCB5 /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BB02A3B4C1700CABCB5 /* StarButton.swift */; };
-		9C2C2BB32A3B4C9B00CABCB5 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BB22A3B4C9B00CABCB5 /* ShareButton.swift */; };
-		9C2C2BB52A3B4CDA00CABCB5 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BB42A3B4CDA00CABCB5 /* WhiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +59,9 @@
 		370D5DF62A3B1714002A2ABB /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
 		370D5DF92A3B1714002A2ABB /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+		372E76642A3CA2E60094F2C8 /* Reflection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
 		9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		9C2C2BAE2A3B4B2D00CABCB5 /* QuoteBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBox.swift; sourceTree = "<group>"; };
-		9C2C2BB02A3B4C1700CABCB5 /* StarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
-		9C2C2BB22A3B4C9B00CABCB5 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
-		9C2C2BB42A3B4CDA00CABCB5 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +140,8 @@
 		9C2C2BB62A3B4E5300CABCB5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				372E76642A3CA2E60094F2C8 /* Reflection.swift */,
 				9C2C2BAE2A3B4B2D00CABCB5 /* QuoteBox.swift */,
-				9C2C2BB42A3B4CDA00CABCB5 /* WhiteButton.swift */,
-				9C2C2BB22A3B4C9B00CABCB5 /* ShareButton.swift */,
-				9C2C2BB02A3B4C1700CABCB5 /* StarButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -282,9 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2C2BB12A3B4C1700CABCB5 /* StarButton.swift in Sources */,
 				370D5DC72A3B169C002A2ABB /* ContentView.swift in Sources */,
-				9C2C2BB52A3B4CDA00CABCB5 /* WhiteButton.swift in Sources */,
 				370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */,
 				370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */,
 				370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */,
@@ -294,7 +286,7 @@
 				370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */,
 				370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */,
 				370D5DFB2A3B1714002A2ABB /* SegmentedPicker.swift in Sources */,
-				9C2C2BB32A3B4C9B00CABCB5 /* ShareButton.swift in Sources */,
+				372E76652A3CA2E60094F2C8 /* Reflection.swift in Sources */,
 				370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */,
 				370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */,
 				370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */,
