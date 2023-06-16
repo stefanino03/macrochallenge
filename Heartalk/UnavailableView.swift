@@ -11,13 +11,21 @@ struct UnavailableView: View
     {
         var body: some View
             {
-                VStack
+                ZStack
                     {
-                        Image(systemName:"wrongwaysign.fill")
+                        Image("sfondo")
                         .resizable()
-                        .frame(width: 50, height: 50)
-                        Text("Unavailable View")
-                        .font(.title)
+                        .ignoresSafeArea()
+                        VStack
+                            {
+                                Image(systemName:"wrongwaysign.fill")
+                                .resizable()
+                                .foregroundColor(.red)
+                                .frame(width: 50, height: 50)
+                                Text("Unavailable View")
+                                .font(.title)
+                                .foregroundColor(.black)
+                            }
                     }
             }
     }

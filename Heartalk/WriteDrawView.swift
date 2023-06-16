@@ -26,9 +26,6 @@ struct WriteDrawView: View {
                 }
             }
         }
-        .onAppear {
-            scheduleNotifications()
-        }
     }
 }
 

@@ -14,7 +14,6 @@
 		370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DEE2A3B1714002A2ABB /* DrawView.swift */; };
 		370D5DFB2A3B1714002A2ABB /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */; };
 		370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF02A3B1714002A2ABB /* Canvas.swift */; };
-		370D5DFD2A3B1714002A2ABB /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DF12A3B1714002A2ABB /* Preview Content */; };
 		370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF22A3B1714002A2ABB /* QuoteView.swift */; };
 		370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF42A3B1714002A2ABB /* notificationFunc.swift */; };
 		370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */; };
@@ -56,7 +55,6 @@
 		370D5DEE2A3B1714002A2ABB /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		370D5DEF2A3B1714002A2ABB /* SegmentedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		370D5DF02A3B1714002A2ABB /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
-		370D5DF12A3B1714002A2ABB /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; sourceTree = "<group>"; };
 		370D5DF22A3B1714002A2ABB /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		370D5DF42A3B1714002A2ABB /* notificationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
 		370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteDrawView.swift; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 		370D5DCA2A3B169C002A2ABB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				370D5DF12A3B1714002A2ABB /* Preview Content */,
 				370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -259,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370D5DFD2A3B1714002A2ABB /* Preview Content in Resources */,
 				370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */,
 				370D5DC92A3B169C002A2ABB /* Assets.xcassets in Resources */,
 			);
@@ -457,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
-				DEVELOPMENT_TEAM = 6DL7U9BGXC;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -486,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Heartalk/Preview Content\"";
-				DEVELOPMENT_TEAM = 6DL7U9BGXC;
+				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

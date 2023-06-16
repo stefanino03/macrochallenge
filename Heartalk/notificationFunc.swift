@@ -19,11 +19,11 @@ func scheduleNotifications() {
     }
     let content = UNMutableNotificationContent()
     content.title = "Heartalk"
-    content.body = "Quote of the day"
+    content.body = "Badge Out"
     content.sound = UNNotificationSound.default
     var dateComponents = DateComponents()
     dateComponents.hour = 17
-    dateComponents.minute = 07
+    dateComponents.minute = 50
     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
     UNUserNotificationCenter.current().add(request)
