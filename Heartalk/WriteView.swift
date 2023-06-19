@@ -75,6 +75,6 @@ struct WriteView_Previews: PreviewProvider
     {
         static var previews: some View
             {
-                WriteView(actualText: .constant(""))
+                WriteView(actualText: .constant(" "))
             }
     }
