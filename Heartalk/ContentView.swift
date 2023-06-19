@@ -7,100 +7,100 @@
 
 import SwiftUI
 struct ContentView: View
+{
+    @State private var star = false
+    @State var selection: Int = 0
+    var body: some View
     {
-        @State private var star = false
-        @State var selection: Int = 0
-        var body: some View
+        NavigationStack
+        {
+            ZStack
             {
-                NavigationStack
+                Image("sfondo")
+                    .resizable()
+                    .ignoresSafeArea()
+                ScrollView(showsIndicators: false)
+                {
+                    VStack
                     {
+                        Spacer(minLength: 10)
+                        QuoteBox()
+                        Spacer(minLength: 30)
                         ZStack
+                        {
+                            NavigationLink
                             {
-                                Image("sfondo")
-                                .resizable()
-                                .ignoresSafeArea()
-                                ScrollView(showsIndicators: false)
-                                    {
-                                        VStack
-                                            {
-                                                Spacer(minLength: 10)
-                                                QuoteBox()
-                                                Spacer(minLength: 30)
-                                                ZStack
-                                                    {
-                                                        NavigationLink
-                                                            {
-                                                                WriteDrawView()
-                                                            }
-                                                        label:
-                                                            {
-                                                                ZStack
-                                                                    {
-                                                                        RoundedRectangle(cornerRadius: 10)
-                                                                        .frame(width: UIScreen.main.bounds.width - 60, height: 50)
-                                                                        .foregroundColor(.pink)
-                                                                        Text("Make a reflection")
-                                                                        .foregroundColor(.white)
-                                                                        .bold()
-                                                                    }
-                                                            }
-                                                    }
-                                                HStack
-                                                    {
-                                                        Spacer()
-                                                    }
-                                                VStack
-                                                    {
-                                                        Spacer(minLength: 30)
-                                                        ForEach(0..<3)
-                                                            {
-                                                                i in Reflection()
-                                                                Spacer(minLength: 20)
-                                                            }
-                                                    }
-                                            }
-                                    }
+                                WriteDrawView()
                             }
-                        .toolbar
+                        label:
                             {
-                                ToolbarItemGroup(placement: .navigationBarTrailing)
-                                    {
-                                        NavigationLink
-                                            {
-                                                QuoteView()
-                                            }
-                                        label:
-                                            {
-                                                Image(systemName: "calendar")
-                                                .foregroundColor(.pink)
-                                            }
-                                    }
-                                ToolbarItemGroup(placement: .navigationBarLeading)
-                                    {
-                                        NavigationLink
-                                            {
-                                                UnavailableView()
-                                            }
-                                        label:
-                                            {
-                                                Image(systemName: "gear")
-                                                .foregroundColor(.pink)
-                                            }
-                                    }
+                                ZStack
+                                {
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .frame(width: UIScreen.main.bounds.width - 60, height: 50)
+                                        .foregroundColor(.pink)
+                                    Text("Make a reflection")
+                                        .foregroundColor(.white)
+                                        .bold()
+                                }
                             }
+                        }
+                        HStack
+                        {
+                            Spacer()
+                        }
+                        VStack
+                        {
+                            Spacer(minLength: 30)
+                            ForEach(0..<3)
+                            {
+                                i in Reflection()
+                                Spacer(minLength: 20)
+                            }
+                        }
                     }
-                .onAppear
-                    {
-                        scheduleNotifications()
-                    }
+                }
             }
+            .toolbar
+            {
+                ToolbarItemGroup(placement: .navigationBarTrailing)
+                {
+                    NavigationLink
+                    {
+                        CalendarView()
+                    }
+                label:
+                    {
+                        Image(systemName: "calendar")
+                            .foregroundColor(.pink)
+                    }
+                }
+                ToolbarItemGroup(placement: .navigationBarLeading)
+                {
+                    NavigationLink
+                    {
+                        UnavailableView()
+                    }
+                label:
+                    {
+                        Image(systemName: "gear")
+                            .foregroundColor(.pink)
+                    }
+                }
+            }
+        }
+        .onAppear
+        {
+            scheduleNotifications()
+        }
     }
+}
 
 struct ContentView_Previews: PreviewProvider
+{
+    static var previews: some View
     {
-        static var previews: some View
-            {
-                ContentView()
-            }
+        ContentView()
     }
+}
 
