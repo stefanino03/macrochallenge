@@ -12,30 +12,19 @@ struct WriteView: View {
     @Environment(\.managedObjectContext) var viewContext
     @FetchRequest(entity: Quote.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Quote.phrase, ascending: true)])
     var items: FetchedResults<Quote>
+    let textfieldphrase : String = " Write your reflection here..."
     @Binding var actualText: String
     var body: some View {
-        TextField("Write your thoughts here...", text: $actualText, axis: .vertical)
+        TextField("", text: $actualText, axis: .vertical)
+            .foregroundColor(.black)
+            .accentColor(.black)
+            .placeholder(when: actualText.isEmpty)
+                                {
+                                    Text("Write your reflection here...")
+                                    .foregroundColor(.gray)
+                                }
             .frame(maxHeight: .infinity, alignment: .top)
             .padding([.horizontal, .top])
-//            .toolbar
-//        {
-//            ToolbarItemGroup(placement: .navigationBarTrailing)
-//            {
-//                Button
-//                {
-//                    addItem()
-//                }
-//            label:
-//                {
-//                    HStack
-//                    {
-//                        Text("Done")
-//                            .foregroundColor(.pink)
-//                            .bold()
-//                    }
-//                }
-//            }
-//        }
     }
     private func addItem() {
         withAnimation {
@@ -63,6 +52,17 @@ struct WriteView: View {
     }
 }
 
+extension View
+    {
+        func placeholder <Content: View> (when shouldshow: Bool, alignment : Alignment = .leading, @ViewBuilder placeholder: () -> Content) -> some View
+            {
+                ZStack(alignment: alignment)
+                    {
+                        placeholder().opacity(shouldshow ? 1 : 0)
+                        self
+                    }
+            }
+    }
 struct WriteView_Previews: PreviewProvider
 {
     static var previews: some View
