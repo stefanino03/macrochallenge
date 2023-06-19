@@ -10,7 +10,6 @@ struct ContentView: View
     {
         @State private var star = false
         @State var selection: Int = 0
-        @State var isActive = false
         var body: some View
             {
                 NavigationStack
@@ -31,7 +30,7 @@ struct ContentView: View
                                                     {
                                                         NavigationLink
                                                             {
-                                                                WriteDrawView(isActive: $isActive, selection: $selection)
+                                                                WriteDrawView()
                                                             }
                                                         label:
                                                             {
@@ -89,18 +88,6 @@ struct ContentView: View
                                             }
                                     }
                             }
-                    }
-                .onChange(of: selection)
-                    {
-                        newValue in if selection == 0
-                            {
-                                isActive = false
-                            }
-                        else if selection == 1
-                            {
-                                isActive = true
-                            }
-                        print(isActive)
                     }
                 .onAppear
                     {
