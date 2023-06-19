@@ -25,7 +25,7 @@ struct WriteDrawView: View
                                         RoundedRectangle(cornerRadius: 7)
                                         .frame(width: UIScreen.main.bounds.width - 33, height: 33)
                                         .foregroundColor(.pink)
-                                        .opacity(0.3)
+                                        .opacity(0.4)
                                         Text("Write")
                                         .font(.footnote)
                                         .offset(x: -(UIScreen.main.bounds.width / 4) + 8)
@@ -60,14 +60,6 @@ struct WriteDrawView: View
                                                 .bold()
                                             }
                                         .offset(x : picker ? (UIScreen.main.bounds.width / 4) - 8 : -(UIScreen.main.bounds.width / 4) + 8)
-                                        .onTapGesture
-                                            {
-                                                withAnimation(Animation.easeOut(duration: 0.25))
-                                                    {
-                                                        picker.toggle()
-                                                        isActive.toggle()
-                                                    }
-                                            }
                                     }
                                 if(picker == true)
                                     {
@@ -82,16 +74,24 @@ struct WriteDrawView: View
                             {
                                 ToolbarItemGroup(placement: .navigationBarTrailing)
                                     {
-                                        NavigationLink("Done", destination: UnavailableView())
-                                        .foregroundColor(.pink)
-                                        .bold()
-                                        .navigationBarBackButtonHidden(true)
+                                        Button
+                                            {
+                                                dismiss()
+                                            }
+                                        label:
+                                            {
+                                                HStack
+                                                    {
+                                                        Text("Done")
+                                                        .foregroundColor(.pink)
+                                                        .bold()
+                                                    }
+                                            }
                                     }
                                 ToolbarItemGroup(placement: .navigationBarLeading)
                                     {
                                         Button
                                             {
-                                                print("Custom Action")
                                                 dismiss()
                                             }
                                         label:
@@ -100,6 +100,7 @@ struct WriteDrawView: View
                                                     {
                                                         Text("Cancel")
                                                         .foregroundColor(.gray)
+                                                        .navigationBarBackButtonHidden()
                                                     }
                                             }
                                     }
