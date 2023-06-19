@@ -16,7 +16,7 @@ struct QuoteBox: View
                     {
                         Image("card")
                         .resizable()
-                        .shadow(color: .black, radius: 20)
+                        .shadow(color: .black.opacity(0.5), radius: 20)
                         .frame(width: UIScreen.main.bounds.width - 60, height: 250)
                         VStack
                             {
@@ -26,14 +26,14 @@ struct QuoteBox: View
                                             {
                                                 Image(systemName: "square.and.arrow.up")
                                                 .resizable()
-                                                .foregroundColor(.black)
+                                                .foregroundColor(.white)
                                                 .bold()
                                                 .frame(width: 20, height: 25)
                                             }
                                         Spacer()
-                                        Image(systemName: "star.fill")
+                                        Image(systemName: star ? "star.fill" : "star")
                                         .resizable()
-                                        .foregroundColor(star ? .pink : .black)
+                                        .foregroundColor(.white)
                                         .bold()
                                         .frame(width: 27, height: 25)
                                         .onTapGesture
@@ -44,11 +44,12 @@ struct QuoteBox: View
                                 .frame(width: 70)
                                 .offset(x: 110)
                                 Text("\"Love is like a plant, the more you feed it, the more it grows.\"")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.title3)
                                 .bold()
                                 .multilineTextAlignment(.center)
                                 .frame(width: UIScreen.main.bounds.width - 180, height: 160)
+                                
                             }
                     }
             }

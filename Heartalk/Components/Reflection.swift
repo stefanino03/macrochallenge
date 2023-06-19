@@ -19,17 +19,20 @@ struct Reflection: View
             {
                 ZStack
                     {
-                        RoundedRectangle(cornerRadius: 20)
-                        .foregroundColor(card.cardc)
-                        .opacity(0.8)
-                        .shadow(color: .black, radius: 10)
+                        ZStack
+                            {
+                                RoundedRectangle(cornerRadius: 20)
+                                .stroke(.pink, lineWidth: 3)
+                                RoundedRectangle(cornerRadius: 20)
+                                .foregroundColor(.white)
+                            }
                         .frame(width: UIScreen.main.bounds.width - 60, height: 150)
                         VStack
                             {
                                 Text("21/06/23")
                                 .foregroundColor(.pink)
                                 .bold()
-                                .offset(x: UIScreen.main.bounds.width - 500)
+                                .offset(x: (-UIScreen.main.bounds.width / 4) - 25)
                                 Text("\"Love is like a plant, the more you feed it, the more it grows.\"")
                                 .foregroundColor(.black)
                                 .font(.title3)

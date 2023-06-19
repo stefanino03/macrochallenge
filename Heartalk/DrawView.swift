@@ -16,8 +16,15 @@ struct DrawView: View
         @State var actualText = ""
         var body: some View
             {
-                Canvas(isActive: $isActive, canvasView: $canvasView, toolPicker: $toolPicker)
-                .frame(width: UIScreen.main.bounds.width)
+                ZStack
+                    {
+                        Image("bianco")
+                        .resizable()
+                        .ignoresSafeArea()
+                        Canvas(isActive: $isActive, canvasView: $canvasView, toolPicker: $toolPicker)
+                        .preferredColorScheme(.light)
+                        .frame(width: UIScreen.main.bounds.width)
+                    }
             }
     }
 

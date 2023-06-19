@@ -5,7 +5,7 @@
 //  Created by Stefano Giacobbe on 15/06/23.
 //
 
-import Foundation
+/*import Foundation
 
 struct Quote: Identifiable {
     var id = UUID()
@@ -45,3 +45,4 @@ var quotes: [Quote] = [
     Quote(phrase: "You can be happy and grateful and still struggle with mental health issues at the same time")
 ]
 
+*/

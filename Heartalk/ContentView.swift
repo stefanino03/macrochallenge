@@ -23,9 +23,9 @@ struct ContentView: View
                                     {
                                         VStack
                                             {
-                                                Spacer(minLength: 10)
+                                                Spacer(minLength: 20)
                                                 QuoteBox()
-                                                Spacer(minLength: 30)
+                                                Spacer(minLength: 20)
                                                 ZStack
                                                     {
                                                         NavigationLink
@@ -36,11 +36,17 @@ struct ContentView: View
                                                             {
                                                                 ZStack
                                                                     {
-                                                                        RoundedRectangle(cornerRadius: 10)
+                                                                        ZStack
+                                                                            {
+                                                                                RoundedRectangle(cornerRadius: 10)
+                                                                                .foregroundColor(.white)
+                                                                                RoundedRectangle(cornerRadius: 10)
+                                                                                    .stroke(lineWidth: 1.5)
+                                                                                .fill(.pink)
+                                                                            }
                                                                         .frame(width: UIScreen.main.bounds.width - 60, height: 50)
-                                                                        .foregroundColor(.pink)
                                                                         Text("Make a reflection")
-                                                                        .foregroundColor(.white)
+                                                                        .foregroundColor(.pink)
                                                                         .bold()
                                                                     }
                                                             }
@@ -52,6 +58,12 @@ struct ContentView: View
                                                 VStack
                                                     {
                                                         Spacer(minLength: 30)
+                                                        Text("My Reflections")
+                                                        .foregroundColor(.black)
+                                                        .font(.title2)
+                                                        .bold()
+                                                        .offset(x: -UIScreen.main.bounds.width / 4 + 15  )
+                                                        Spacer(minLength: 20)
                                                         ForEach(0..<3)
                                                             {
                                                                 i in Reflection()
@@ -67,11 +79,11 @@ struct ContentView: View
                                     {
                                         NavigationLink
                                             {
-                                                QuoteView()
+                                                HistoryView()
                                             }
                                         label:
                                             {
-                                                Image(systemName: "calendar")
+                                                Image(systemName: "list.bullet")
                                                 .foregroundColor(.pink)
                                             }
                                     }

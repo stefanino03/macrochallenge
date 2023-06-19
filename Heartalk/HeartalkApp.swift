@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct HeartalkApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct HeartalkApp: App
+    {
+        let persistenceController = PersistenceController.shared
+        var body: some Scene
+            {
+                WindowGroup
+                    {
+                        ContentView()
+                        .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    }
+            }
     }
-}

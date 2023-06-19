@@ -13,13 +13,15 @@
 		370D5DCC2A3B169C002A2ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D5DCB2A3B169C002A2ABB /* Preview Assets.xcassets */; };
 		370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DEE2A3B1714002A2ABB /* DrawView.swift */; };
 		370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF02A3B1714002A2ABB /* Canvas.swift */; };
-		370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF22A3B1714002A2ABB /* QuoteView.swift */; };
 		370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF42A3B1714002A2ABB /* notificationFunc.swift */; };
 		370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */; };
 		370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF62A3B1714002A2ABB /* WriteView.swift */; };
 		370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */; };
 		370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5DF92A3B1714002A2ABB /* UnavailableView.swift */; };
 		372E76652A3CA2E60094F2C8 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E76642A3CA2E60094F2C8 /* Reflection.swift */; };
+		373E1F542A40A9520095D019 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E1F532A40A9520095D019 /* HistoryView.swift */; };
+		37AE48BC2A40B29F00912039 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37AE48BA2A40B29F00912039 /* CoreDataModel.xcdatamodeld */; };
+		37AE48BE2A40B34C00912039 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE48BD2A40B34C00912039 /* Persistence.swift */; };
 		9C2C2BAC2A3B38D800CABCB5 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */; };
 		9C2C2BAF2A3B4B2D00CABCB5 /* QuoteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C2BAE2A3B4B2D00CABCB5 /* QuoteBox.swift */; };
 /* End PBXBuildFile section */
@@ -51,13 +53,16 @@
 		370D5DDB2A3B169D002A2ABB /* HeartalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370D5DEE2A3B1714002A2ABB /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		370D5DF02A3B1714002A2ABB /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
-		370D5DF22A3B1714002A2ABB /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		370D5DF42A3B1714002A2ABB /* notificationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationFunc.swift; sourceTree = "<group>"; };
 		370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteDrawView.swift; sourceTree = "<group>"; };
 		370D5DF62A3B1714002A2ABB /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardReadable.swift; sourceTree = "<group>"; };
 		370D5DF92A3B1714002A2ABB /* UnavailableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
 		372E76642A3CA2E60094F2C8 /* Reflection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
+		373E1F522A4089830095D019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		373E1F532A40A9520095D019 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		37AE48BB2A40B29F00912039 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		37AE48BD2A40B34C00912039 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		9C2C2BAE2A3B4B2D00CABCB5 /* QuoteBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,18 +115,21 @@
 			children = (
 				370D5DCA2A3B169C002A2ABB /* Preview Content */,
 				370D5DC42A3B169C002A2ABB /* HeartalkApp.swift */,
+				37AE48BD2A40B34C00912039 /* Persistence.swift */,
+				373E1F532A40A9520095D019 /* HistoryView.swift */,
 				370D5DC62A3B169C002A2ABB /* ContentView.swift */,
 				370D5DF02A3B1714002A2ABB /* Canvas.swift */,
 				370D5DEE2A3B1714002A2ABB /* DrawView.swift */,
 				370D5DF82A3B1714002A2ABB /* KeyBoardReadable.swift */,
 				370D5DF42A3B1714002A2ABB /* notificationFunc.swift */,
-				370D5DF22A3B1714002A2ABB /* QuoteView.swift */,
 				9C2C2BAB2A3B38D800CABCB5 /* QuoteModel.swift */,
 				370D5DF92A3B1714002A2ABB /* UnavailableView.swift */,
 				370D5DF52A3B1714002A2ABB /* WriteDrawView.swift */,
 				370D5DF62A3B1714002A2ABB /* WriteView.swift */,
 				9C2C2BB62A3B4E5300CABCB5 /* Components */,
 				370D5DC82A3B169C002A2ABB /* Assets.xcassets */,
+				373E1F522A4089830095D019 /* Info.plist */,
+				37AE48BA2A40B29F00912039 /* CoreDataModel.xcdatamodeld */,
 			);
 			path = Heartalk;
 			sourceTree = "<group>";
@@ -274,18 +282,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				370D5DC72A3B169C002A2ABB /* ContentView.swift in Sources */,
+				37AE48BE2A40B34C00912039 /* Persistence.swift in Sources */,
 				370D5E052A3B1714002A2ABB /* UnavailableView.swift in Sources */,
 				370D5E022A3B1714002A2ABB /* WriteView.swift in Sources */,
-				370D5DFE2A3B1714002A2ABB /* QuoteView.swift in Sources */,
 				370D5DC52A3B169C002A2ABB /* HeartalkApp.swift in Sources */,
 				9C2C2BAF2A3B4B2D00CABCB5 /* QuoteBox.swift in Sources */,
 				9C2C2BAC2A3B38D800CABCB5 /* QuoteModel.swift in Sources */,
+				373E1F542A40A9520095D019 /* HistoryView.swift in Sources */,
 				370D5E002A3B1714002A2ABB /* notificationFunc.swift in Sources */,
 				370D5E012A3B1714002A2ABB /* WriteDrawView.swift in Sources */,
 				372E76652A3CA2E60094F2C8 /* Reflection.swift in Sources */,
 				370D5DFC2A3B1714002A2ABB /* Canvas.swift in Sources */,
 				370D5E042A3B1714002A2ABB /* KeyBoardReadable.swift in Sources */,
 				370D5DFA2A3B1714002A2ABB /* DrawView.swift in Sources */,
+				37AE48BC2A40B29F00912039 /* CoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,9 +454,11 @@
 				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Heartalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,9 +485,11 @@
 				DEVELOPMENT_TEAM = 73UJ85V67K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Heartalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +621,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37AE48BA2A40B29F00912039 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37AE48BB2A40B29F00912039 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 37AE48BB2A40B29F00912039 /* CoreDataModel.xcdatamodel */;
+			name = CoreDataModel.xcdatamodeld;
+			path = ../CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 370D5DB92A3B169C002A2ABB /* Project object */;
 }
