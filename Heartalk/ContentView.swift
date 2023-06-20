@@ -9,6 +9,7 @@ import SwiftUI
 struct ContentView: View
     {
         @State private var star = false
+        let date = Date()
         @Environment(\.managedObjectContext) private var viewContext
         @FetchRequest(
         entity: Quote.entity(),
@@ -53,19 +54,36 @@ struct ContentView: View
                                                     {
                                                         Spacer()
                                                     }
-                                                VStack
+                                                Text("My Reflections")
+                                                .foregroundColor(.black)
+                                                .font(.title2)
+                                                .bold()
+                                                .offset(x: -UIScreen.main.bounds.width / 4 + 15  )
+                                                Spacer(minLength: 20)
+                                                ForEach(quotes)
                                                     {
-                                                        Spacer(minLength: 30)
-                                                        Text("My Reflections")
-                                                        .foregroundColor(.black)
-                                                        .font(.title2)
-                                                        .bold()
-                                                        .offset(x: -UIScreen.main.bounds.width / 4 + 15  )
-                                                        Spacer(minLength: 20)
-                                                        ForEach(0..<3)
+                                                        quote in ZStack
                                                             {
-                                                                i in Reflection()
-                                                                Spacer(minLength: 20)
+                                                                ZStack
+                                                                    {
+                                                                        RoundedRectangle(cornerRadius: 20)
+                                                                        .stroke(.gray.opacity(0.15), lineWidth: 3)
+                                                                        RoundedRectangle(cornerRadius: 20)
+                                                                        .foregroundColor(.white)
+                                                                    }
+                                                                .frame(width: UIScreen.main.bounds.width - 60, height: 150)
+                                                                VStack
+                                                                    {
+                                                                        Text(date.formatted(.dateTime.day().month().year()))
+                                                                        .foregroundColor(.black)
+                                                                        .bold()
+                                                                        .offset(x: -UIScreen.main.bounds.width / 4)
+                                                                        Text(quote.phrase ?? "")
+                                                                        .foregroundColor(.black)
+                                                                        .font(.title3)
+                                                                        .multilineTextAlignment(.center)
+                                                                        .frame(width: UIScreen.main.bounds.width - 90, height: 90)
+                                                                    }
                                                             }
                                                     }
                                             }
@@ -103,6 +121,30 @@ struct ContentView: View
                 .onAppear
                     {
                         scheduleNotifications()
+                    }
+            }
+        func deleteItems(offsets: IndexSet)
+            {
+                withAnimation
+                    {
+                        offsets.map
+                            {
+                                quotes[$0]
+                            }
+                        .forEach(viewContext.delete)
+                        saveItems()
+                    }
+            }
+        func saveItems()
+            {
+                do
+                    {
+                        try viewContext.save()
+                    }
+                catch
+                    {
+                        let nsError = error as NSError
+                        fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
                     }
             }
     }

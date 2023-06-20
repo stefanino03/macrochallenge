@@ -27,6 +27,7 @@ struct UnavailableView: View
                                 .foregroundColor(.black)
                             }
                     }
+                .navigationBarTitle("Settings")
             }
     }
 

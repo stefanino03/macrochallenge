@@ -75,18 +75,19 @@ struct HistoryView: View
                                                         ZStack
                                                             {
                                                                 RoundedRectangle(cornerRadius: 20)
-                                                                .stroke(.pink, lineWidth: 3)
+                                                                .stroke(.gray.opacity(0.15), lineWidth: 4)
                                                                 RoundedRectangle(cornerRadius: 20)
                                                                 .foregroundColor(.white)
+                                                                .shadow(color: .black.opacity(0.6), radius: 5)
                                                             }
                                                         .frame(width: UIScreen.main.bounds.width - 60, height: 150)
                                                         .offset(x: UIScreen.main.bounds.width / 32)
                                                         VStack
                                                             {
-                                                                Text(date.formatted())
+                                                                Text(date.formatted(.dateTime.day().month().year()))
                                                                 .foregroundColor(.black)
                                                                 .bold()
-                                                                .offset(x: -UIScreen.main.bounds.width / 4)
+                                                                .offset(x: (-UIScreen.main.bounds.width / 4) + 15)
                                                                 Text(quote.phrase ?? "")
                                                                 .foregroundColor(.black)
                                                                 .font(.title3)
@@ -100,6 +101,7 @@ struct HistoryView: View
                                     }
                                 .listStyle(.plain)
                             }
+                            .navigationBarTitle("Diary")
                     }
             }
         func deleteItems(offsets: IndexSet)

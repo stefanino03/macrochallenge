@@ -22,7 +22,7 @@ struct Reflection: View
                         ZStack
                             {
                                 RoundedRectangle(cornerRadius: 20)
-                                .stroke(.pink, lineWidth: 3)
+                                .stroke(.gray.opacity(0.2), lineWidth: 4)
                                 RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.white)
                             }
